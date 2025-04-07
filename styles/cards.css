@@ -1,0 +1,56 @@
+.card {
+    max-width: 220px;
+    
+    
+}
+
+.card__title {
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+}
+
+.card__title::before {
+    content: "01";
+    position: absolute;
+    font-size: 100px;
+    color: #01996D;
+    opacity: 0.3;
+    bottom: -15px;
+    left: -10px;
+
+}
+
+.card__title-second::before {
+    content: "02";
+    position: absolute;
+    font-size: 100px;
+    color: #01996D;
+    opacity: 0.3;
+    bottom: -15px;
+    left: -10px;
+
+}
+
+.card__title-third::before {
+    content: "03";
+    position: absolute;
+    font-size: 100px;
+    color: #01996D;
+    opacity: 0.3;
+    bottom: -15px;
+    left: -10px;
+
+}
+
+.card__desc {
+    margin: 30px auto;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.card__img {
+    max-width: 100%;
+    border-radius: 5px;
+}
