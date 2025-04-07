@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     padding: 0 10px;
     margin: 0 auto;
 }
@@ -23,6 +23,7 @@ ul {
 a {
     text-decoration: 0;
     color: unset;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, p, figure {
