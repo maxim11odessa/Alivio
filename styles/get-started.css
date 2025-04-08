@@ -1,9 +1,12 @@
+.get-started {
+    background-color: var(--co-dark-green);
+}
+
 .get-started__wrapper {
     width: 100%;
     display: flex;
     padding: 30px;
     justify-content: center;
-    background-color: var(--co-dark-green);
     column-gap: 15px;
 }
 
@@ -75,7 +78,7 @@
     }
 
     .get-started__btn {
-        padding: 5px;
+        padding: 10px;
     }
 }
 
