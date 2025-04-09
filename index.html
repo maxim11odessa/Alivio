@@ -39,11 +39,42 @@
 
                 <div class="header__actions">
                     <button type="button" class="btn btn--signin">Sign in</button>
-                    <button type="button" class="btn">Start Trial</button>
+                    <button type="button" class="btn btn--start">Start Trial</button>
                 </div>
             </div>
         </div>
     </header>
+
+    <div class="mob-menu">
+        <div class="container">
+            <label for="toggler-id" class="mob-menu__burger">
+                <img src="assets/svg/Burger_button.svg" alt="mob-menu">
+            </label>
+            <input type="checkbox" name="toggler" id="toggler-id" class="mob-menu__toggler">
+
+            <nav class="mob-menu__nav">
+                <ul class="mob-menu__nav-list">
+                    <li class="mob-menu__nav-item">
+                        <a class="mob-menu__nav-link" href="#">Why Alivio</a>
+                    </li>
+                    <li class="mob-menu__nav-item">
+                        <a class="mob-menu__nav-link" href="#">Solutions</a>
+                    </li>
+                    <li class="mob-menu__nav-item">
+                        <a class="mob-menu__nav-link" href="#">Community</a>
+                    </li>
+                    <li class="mob-menu__nav-item">
+                        <a class="mob-menu__nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+
+                <label for="toggler-id" class="mob-menu__close">
+                    <img src="assets/svg/close_button.svg" alt="close-menu">
+                </label>
+            </nav>
+        </div>
+    </div>
+
     <main class="main">
         <section class="hero">
             <div class="container hero__container">
@@ -149,8 +180,6 @@
             </div>
         </footer>
     </main>
-    
-
 </body>
 
 </html>

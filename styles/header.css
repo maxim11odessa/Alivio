@@ -38,6 +38,7 @@
 }
 
 .header__actions {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,36 +49,38 @@
         font-size: 16px;
     }
 
+    .header__nav {
+        /* font-size: 14px; */
+        display: none;
+    }
+
     .btn {
         font-size: 16px;
         width: 120px;
         height: auto;
+        flex-wrap: nowrap;
     }
-    
+
     .logo {
         margin-right: 10px;
     }
 }
 
-@media (max-width: 658px) {
-    .header__nav-link {
-        font-size: 14px;
+@media (max-width: 768px) {
+    .header__wrapper {
+        padding: 0 0 0 60px;
     }
 
-    .btn {
+    .header__nav {
+        /* font-size: 14px; */
+        display: none;
+    }
+
+    .btn--start,
+    .btn--signin {
         padding: 10px;
         font-size: 14px;
-        width: 120px;
+        width: 90px;
         height: auto;
-    }
-    
-    .logo {
-        margin-right: 10px;
-    }
-}
-
-@media (max-width: 576px) {
-    .header__nav {
-        display: none;
     }
 }
