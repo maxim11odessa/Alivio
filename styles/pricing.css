@@ -1,0 +1,29 @@
+.pricing {
+    margin: 100px 0;
+    padding: 50px 0;
+    background-color: var(--co-dark-green);
+}
+
+/* .container {
+} */
+
+.pricing__wrapper {
+    color: #fff;
+}
+
+.pricing__title {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.pricing__list {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pricing__item {
+    margin: 40px 0 0 0;
+}
+
+/* .pricing__link {
+} */
